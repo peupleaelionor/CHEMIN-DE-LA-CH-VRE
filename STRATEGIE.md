@@ -269,7 +269,7 @@ Conclusion : **garder le nom**. Aucune alternative n'est meilleure. Le seul moti
 | **Papier** | `#ECE7DC` | Fond principal, cartons, étiquettes |
 | **Graphite** | `#5E5D59` | Texte secondaire, légendes |
 | **Carton** | `#B9B3A6` | Séparateurs, fonds de nature morte |
-| **Trait** | *à mesurer* | Couleur réelle de l'encre ou du crayon des carnets, mesurée au spectrophotomètre sur 10 pages. Accent unique, utilisé à moins de 2 % de la surface |
+| **Trait** | *à mesurer* (gris graphite) | Couleur réelle du crayon des carnets : le graphite, avec son reflet légèrement métallique. Mesurée au spectrophotomètre sur 10 pages. Accent unique, utilisé à moins de 2 % de la surface |
 
 La couleur « Trait » n'est pas choisie, elle est **relevée**. C'est la seule couleur de la marque qui ne peut pas être copiée sans copier l'origine.
 
@@ -332,6 +332,7 @@ Serge de coton lourde, jambe large et droite, **ourlet calculé pour casser une 
 Flanelle de laine italienne (Biella), même patron que Pantalon 01. Confection Portugal. Gris ardoise.
 
 **09 — Pull 01**
+*Option : version mohair (fibre de chèvre angora), prix de revient ≈ 65-75 €, PVC 380 €. Voir « Matières de chèvre » plus bas.*
 Mérinos extrafin 14 jauges, col rond, épaule montée haute. Portugal ou Italie. Noir, bleu nuit.
 
 **10 — Manteau 01**
@@ -577,6 +578,9 @@ Marge de sécurité : **8 semaines** entre la fin théorique de production et le
 /carnet-01              La collection : grille de pièces, légendes (nom, poids, prix)
 /permanent              Pièces reconduites
 /chaussures             Toutes les chaussures, avec page de carnet d'origine
+/a-venir                Chaussures en développement : dessin, proto, date prévue.
+                        Précommande numérotée ou simple inscription par taille
+                        (donne la vraie courbe de tailles avant de produire)
 /produit/[piece]        Fiche : photos, dessin d'origine (chaussures), composition,
                         grammage, atelier, pays, guide des tailles précis au cm,
                         entretien, prix
@@ -756,6 +760,8 @@ Règle : aucune phrase ne doit pouvoir être utilisée par une autre marque sans
 4. **Atelier ouvert** (2 fois par an, Paris) : retouches, ressemelage, écoute de la pièce sonore, carnets consultables. 40-60 personnes. Coût : 1 000-2 500 €.
 5. **Service client par le fondateur** en année 1 : réponse sous 24 h, en phrases complètes, signées d'un prénom. Échange de taille gratuit pour la chaussure (un aller-retour pris en charge ≈ 12-15 €).
 6. **Aucun programme de points, aucun parrainage avec réduction.**
+7. **Passeport numérique produit** (dès le Carnet 01) : un QR code sur l'étiquette de composition (puce NFC dans la chaussure à partir de 2028). Il donne l'origine du tissu, l'atelier, l'entretien, la réservation de réparation ou de ressemelage, un certificat d'authenticité et le transfert de propriété en cas de revente. Coût : ≈ 0 € avec un QR code relié aux fiches Shopify ; 0,20-0,50 € par puce NFC. Le règlement européen sur l'écoconception (ESPR) prévoit de rendre ce passeport obligatoire pour le textile dans les prochaines années : l'adopter tôt est une vraie avance, réglementaire et utile.
+8. **Reprise** (à partir de 2029) : rachat des pièces portées contre un avoir, remise en état, revente en seconde main certifiée via le passeport.
 
 ### Indicateurs
 
@@ -919,6 +925,36 @@ Protos et développement (2 Carnets) 20 000 € · Campagnes 16 000 € · Publi
 3. **J+90 (fin décembre 2027)** : écoulement ≥ 45 % → Carnet 02 au volume prévu ; sinon, volume divisé par deux.
 4. **Fin 2028** : taux de réachat ≥ 25 % et 6 boutiques → recrutement d'un CDI en 2029 ; sinon, rester à 1,5 ETP.
 5. **Fin 2029** : CA ≥ 450 000 € HT et résultat positif → préparation d'une levée ou d'un financement stock pour une boutique propre à Paris (2031).
+
+---
+
+## Annexe — Décisions postérieures au plan initial
+
+### Matières de chèvre : le lien avec le nom, sans illustration
+
+La chèvre n'est jamais montrée, mais elle peut être **portée**. Les fibres et cuirs de chèvre existent depuis toujours dans le vêtement :
+
+| Matière | Usage | Intérêt | Limite |
+|---|---|---|---|
+| **Chevreau** (cuir de chèvre) | Tige du Derby, 2e coloris ou 2e modèle ; ceinture | Plus souple et plus léger que le veau, grain fin, coût comparable | Moins structuré : à tester, car la chaussure repose sur la tension |
+| **Chèvre velours** (daim de chèvre) | Chaussure, surchemise | Toucher, profondeur de couleur | Entretien plus exigeant |
+| **Mohair** (chèvre angora) | Pull, écharpe | Matière vivante, rare dans le segment | Prix : PVC ≈ 380 € pour un pull |
+| **Cachemire** (chèvre cachemire) | À partir de 2029 | Référence du luxe | PVC 600 €+, hors positionnement en année 1 |
+
+C'est la seule manière crédible de relier le nom au produit : un fait vérifiable (la composition sur l'étiquette), pas une image. Règle : ne jamais le souligner en communication. Le client le découvre en lisant l'étiquette.
+
+### « Style GOAT » : rejeté
+
+« GOAT » (*greatest of all time*) est un terme d'argot sportif et streetwear, déjà daté et utilisé par des milliers de marques (dont une plateforme de revente de sneakers qui s'appelle GOAT). Il tire la marque vers le merch, contredit la règle « la chèvre ne sera jamais illustrée » et rend le nom caricatural. Les vêtements simples et intemporels sont bien le cap, mais sans ce vocabulaire.
+
+### Cryptomonnaie ou jeton lié à l'achat : rejeté
+
+1. **Le marché a déjà tranché.** Entre 2021 et 2023, Nike, Adidas, Gucci et d'autres ont lancé NFT et jetons. La plupart des programmes ont été arrêtés ou réduits (Nike a fermé RTFKT fin 2024). Ce ne serait pas prendre de l'avance, mais arriver après l'échec des autres.
+2. **Réglementation.** Dans l'UE, le règlement MiCA encadre l'émission de crypto-actifs au public (livre blanc, notification à l'AMF, responsabilité de l'émetteur). Il faut ajouter la fiscalité et le traitement de la TVA. Estimation : 30 000-100 000 € de développement et de conseil juridique, soit plus que tout le budget de lancement.
+3. **Image.** Pour la cible (27-42 ans, lit les compositions, fait réparer), un jeton évoque la spéculation et l'arnaque. C'est l'inverse des principes 1 et 5.
+4. **Utilité nulle pour le client.** Un jeton n'améliore ni la coupe, ni la durée de vie, ni le service.
+
+**Ce qui remplace le jeton, en mieux :** le passeport numérique produit (bloc 18, point 7), la page « À venir » avec précommandes par taille (bloc 13) et le programme de reprise (bloc 18, point 8). Ils apportent ce qu'un jeton promet (propriété prouvée, traçabilité, valeur de revente, lien direct avec la marque) sans risque juridique ni spéculatif, pour un coût quasi nul en année 1.
 
 ---
 
